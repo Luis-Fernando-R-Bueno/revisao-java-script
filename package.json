@@ -5,8 +5,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["javascript", "programação API", "inrrodução"],
+  "keywords": [
+    "javascript",
+    "programação API",
+    "inrrodução"
+  ],
   "author": "Luis Fernando Rodrigues Bueno",
   "license": "MIT",
-  "description": "Revisão lógica de programação com java-script"
-} 
+  "description": "Revisão lógica de programação com java-script",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

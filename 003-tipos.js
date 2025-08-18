@@ -32,3 +32,10 @@ function ExibeDados() {
 
 // Chamando a função para exibir os dados
 ExibeDados(); 
+
+// Aula >> 18/08/2025 ; 19:55
+console.log(' ');
+console.log('Tipo de variável: ExibeDaods');
+console.log(typeof(ExibeDados));                            // O typeoff confere o tipo da variável >> 18/08/2025 ; 19:55
+console.log(Array.isArray(ExibeDados));                     // O Array.isArray verifica se a variável é um array 18/08/2025 ; 20:11
+console.log(Array.isArray(principais_avenidas));            // O Array.isArray verifica se a variável é um array 18/08/2025 ; 20:11
