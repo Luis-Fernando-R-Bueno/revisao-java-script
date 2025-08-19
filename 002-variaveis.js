@@ -1,4 +1,5 @@
 // Aula >> 04/08/2025
+
 console.log('');
 let texto ='Hoje não está muito frio';
 let numero = 10;
