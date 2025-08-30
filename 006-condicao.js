@@ -8,17 +8,19 @@ console.log(' ');
 
 if (isNaN(idade)) {
     console.log(`${nome}, insira um valor numérico para a idade: `);
-} else {
+}
+
+else {
     if (idade >= 18) {
         console.log(`${nome}, você é maior de idade.`);
     }
 
-    else{
+    else {
         console.log(`${nome}, você é menor de idade.`);
     }
 }
 
-if (nome.length > 5){
+if (nome.length > 5) {
     console.log('Seu nome é muito curto.');
 }
 
