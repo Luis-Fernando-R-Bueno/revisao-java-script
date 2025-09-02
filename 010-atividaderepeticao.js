@@ -21,13 +21,6 @@ if (n1Str.length > 6 || n2Str.length > 6) { // Verifica se o número tem mais de
     return;
 }
 
-else if (n1Str.lenght > 6 || n2Str.length > 6) { // Verifica se o número tem mais de 6 dígitos >> 29/08/2025 ; 22:20
-    console.log('Por favor, digite números com no máximo 6 dígitos.');
-    n1int = parseInt(n1);
-    n2int = parseInt(n2);
-    return;
-}
-
 else if (isNaN(n1) || isNaN(n2)) { // Imprimi a informação de Erro no código >> 29/08/2025 ; 22:06
     console.log('É necessário preencher todas as informações com números!');
 }
@@ -37,8 +30,8 @@ else if(n1 === n2){ // Identifica se n1 e n2 são iguais para que não tenha as 
     console.log(typeof n1); 
 }
 
-else if ((n1) < (n2)) { // Calcula os casos de n2 maior que n1 >> 29/08/2025 ; 22:07
-    while (n1 < n2){
+else if ((n1) <= (n2)) { // Calcula os casos de n2 maior que n1 >> 29/08/2025 ; 22:07
+    while (n1 <= n2){
         console.log(n1);
         n1++;
         i++;        
@@ -47,7 +40,7 @@ else if ((n1) < (n2)) { // Calcula os casos de n2 maior que n1 >> 29/08/2025 ; 2
 }
 
 else{
-    while (n1 > n2) { // Calcula os casos de n1 maior que n2 >> 29/08/2025 ; 22:07
+    while (n1 >= n2) { // Calcula os casos de n1 maior que n2 >> 29/08/2025 ; 22:07
         console.log(n1);
         n1--;
         i++;
