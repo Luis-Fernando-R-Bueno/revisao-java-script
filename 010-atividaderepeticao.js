@@ -27,7 +27,6 @@ else if (isNaN(n1) || isNaN(n2)) { // Imprimi a informação de Erro no código 
 
 else if(n1 === n2){ // Identifica se n1 e n2 são iguais para que não tenha as próximas verificações >> 29/08/2025 ; 22:06
     console.log('O primeiro e o segundo número são iguais!');
-    console.log(typeof n1); 
 }
 
 else if ((n1) <= (n2)) { // Calcula os casos de n2 maior que n1 >> 29/08/2025 ; 22:07
