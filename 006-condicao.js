@@ -1,4 +1,4 @@
-//Aula >> 18/08/2025 ; 22:38
+// Aula >> 18/08/2025 ; 22:38
 
 let entrada = require('prompt-sync')();
 

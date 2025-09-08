@@ -1,4 +1,4 @@
-//Aula >> 01/09/2025 ; 19:56
+// Aula >> 01/09/2025 ; 19:56
 
 const entrada = require('prompt-sync')();
 const senha = '123';
